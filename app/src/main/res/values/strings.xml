@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AlgoNinja</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="algorithm_name">
+        <item>Binary Search</item>
+        <item>Bubble Sort</item>
+        <item>Quick Sort</item>
+        <item>Merge Sort</item>
+        <item>Sort</item>
+        <item>Search</item>
+        <item>Binary</item>
+        <item>Algorithms</item>
+        <item>Data Structure</item>
+        <item>AlgoNinja</item>
+        <item>Binary Search</item>
+        <item>Bubble Sort</item>
+        <item>Quick Sort</item>
+        <item>Merge Sort</item>
+        <item>Sort</item>
+        <item>Search</item>
+        <item>Binary</item>
+        <item>Algorithms</item>
+        <item>Data Structure</item>
+        <item>AlgoNinja</item>
+        <item>Binary Search</item>
+        <item>Bubble Sort</item>
+        <item>Quick Sort</item>
+        <item>Merge Sort</item>
+        <item>Sort</item>
+        <item>Search</item>
+        <item>Binary</item>
+        <item>Algorithms</item>
+        <item>Data Structure</item>
+        <item>AlgoNinja</item>
+
+    </string-array>
+
+    <string-array name="algorithm_description">
+        <item>Google Play services APIs are not available on all Android-powered devices,
+            but are available on all devices with Google Play Store. To use these APIs in
+            the Android emulator, you must also install the the Google APIs system image
+            from the latest Android X.X directory in the SDK Manager.</item>
+
+        <item>With the above packages now in your Android SDK, you\'re ready to build apps
+            for Android. As new tools and other APIs become available, simply launch the
+            SDK Manager to download the new packages for your SDK.</item>
+    </string-array>
+
+    <string-array name="TabName">
+        <item>Description</item>
+        <item>Code</item>
+    </string-array>
+</resources>

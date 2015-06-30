@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/favouriteCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:enabled="false"
+        android:padding="6dp"
+        android:button="@drawable/ic_star_border_black_18dp"/>
+
+
+    <TextView
+        android:id="@+id/algoNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:clickable="false"
+        android:fontFamily="sans-serif"
+        android:text="Hello World"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@id/favouriteCheckBox"/>
+
+    <TextView
+        android:id="@+id/difficultyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/algoNameTextView"
+        android:layout_toLeftOf="@id/favouriteCheckBox"
+
+        android:layout_marginLeft="16dp"
+        android:text="Difficulty:Easy"
+        android:textSize="14sp" />
+
+
+
+
+</RelativeLayout>
