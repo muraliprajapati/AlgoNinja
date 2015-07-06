@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <include layout="@layout/app_bar"
-        android:id="@+id/appBar"></include>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/appBar"
+        layout="@layout/app_bar"></include>
 
 
     <TableLayout
@@ -13,68 +16,78 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp">
 
-        <TableRow android:layout_gravity="center"
-            android:gravity="center"
+        <TableRow
+            android:layout_gravity="center"
             android:divider="@android:color/black"
+            android:gravity="center"
             android:showDividers="end">
+
             <TextView
-                android:layout_height="wrap_content"
+                style="@android:style/TextAppearance"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Choose Level"
-                android:textSize="28dp"
                 android:textColor="@color/textColor"
 
-                style="@android:style/TextAppearance"
+                android:textSize="28dp"
                 android:textStyle="normal" />
 
 
         </TableRow>
 
-        <TableRow android:layout_marginLeft="64dp"
+        <TableRow
+            android:layout_marginLeft="64dp"
             android:layout_marginRight="64dp">
-            <RadioGroup android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioGroup">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
                 <RadioButton
 
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:id="@+id/easyLevelRadio"
-                    android:text="Easy"
-                    android:paddingLeft="24dp"
                     style="@style/Widget.AppCompat.CompoundButton.RadioButton"
-                    android:textSize="22dp"
-                    android:textColor="@color/button_material_dark"
-                    android:checked="true"/>
-                <RadioButton
-                    android:paddingLeft="24dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Medium"
-                    android:id="@+id/mediumLevelRadio"
-                    android:textSize="22dp"
-                    android:textColor="@color/button_material_dark" />
+                    android:checked="true"
+                    android:paddingLeft="24dp"
+                    android:text="Easy"
+                    android:textColor="@color/button_material_dark"
+                    android:textSize="22dp" />
+
                 <RadioButton
+                    android:id="@+id/mediumLevelRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:text="Medium"
+                    android:textColor="@color/button_material_dark"
+                    android:textSize="22dp" />
+
+                <RadioButton
+                    android:id="@+id/difficultLevelRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="24dp"
                     android:text="Difficult"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/difficultLevelRadio"
-                    android:textSize="22dp"
-                    android:textColor="@color/button_material_dark" />
+                    android:textColor="@color/button_material_dark"
+                    android:textSize="22dp" />
 
             </RadioGroup>
         </TableRow>
-        <TableRow android:layout_width="match_parent"
+
+        <TableRow
+            android:layout_width="match_parent"
             android:layout_gravity="center">
+
             <Button
                 android:id="@+id/startTrainingButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="start training"
-                android:background="@color/primaryColor"
                 android:layout_weight="1"
+                android:background="@color/primaryColor"
+                android:text="start training"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />
         </TableRow>
