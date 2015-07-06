@@ -55,11 +55,11 @@ public class CodeTabFragment extends Fragment {
                 "Base.metadata.create_all(engine)\n");
 
 
-        String[] orange = {"import", " def", " for", " in","True","False","from"};
-        String[] purple = {" range", " print", " open"," id"};
+        String[] orange = {"import", " def", " for", " in", "True", "False", "from"};
+        String[] purple = {" range", " print", " open", " id"};
         String[] red = {"#print(content_text)"};
         String[] blue = {" Restaurant", " MenuItem"};
-        String[] green = {"'sqlite:///restaurantmenu.db'","'restaurant'","'menu_item'","'restaurant.id'"};
+        String[] green = {"'sqlite:///restaurantmenu.db'", "'restaurant'", "'menu_item'", "'restaurant.id'"};
 
         for (String y : orange) {
             fontColor.Codedisplayer(textView, y, 0xFFF4B511);
