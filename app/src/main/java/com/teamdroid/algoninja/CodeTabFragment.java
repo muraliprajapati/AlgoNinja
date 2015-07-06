@@ -14,7 +14,7 @@ public class CodeTabFragment extends Fragment {
 
 
     private TextView textView;
-    Codedisplayer fontColor = new Codedisplayer();
+    Codedisplay fontColor = new Codedisplay();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
